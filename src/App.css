@@ -1,0 +1,122 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+.App {
+  padding: 15px;
+}
+.header {
+  text-align: center;
+}
+.Card {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #79777780;
+  box-shadow: 0.2px 0.5px #888888;
+  margin-bottom: 10px;
+}
+.Card--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Card--text__header {
+  font-size: 24px;
+}
+.Card--text__subheader {
+  font-size: 15px;
+}
+
+.Card--button button {
+  cursor: pointer;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.Card--button__hide {
+  display: none;
+  user-select: none;
+}
+.Card--button__done {
+  background-color: #ffffff;
+  border: 2px solid #00a600;
+  color: #00a600;
+}
+.Card--button__delete {
+  background-color: #ffffff;
+  border: 2px solid #ec2100;
+  color: #ec2100;
+}
+.Card--button__secondary {
+  border: 2px solid #818181;
+  background-color: #818181;
+  color: #ffffff;
+}
+.Card--button__add {
+  background-color: #ff9f29;
+  border: 2px solid #ff9f29;
+  color: #ffffff;
+}
+
+.Card--Form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Card--Form--inline {
+  display: flex;
+}
+.Card--Input {
+  margin: 5px 5px 10px 5px;
+}
+.Card--Input label {
+  display: block;
+  margin-bottom: 5px;
+}
+.Card--Input input {
+  border: 1px solid #ff9f29;
+  border-radius: 6px;
+  padding: 4px 8px;
+  height: calc(2px + 10px + 1rem);
+  min-width: 15rem;
+}
+.Card--Input input:focus,
+.Card--Input input:hover {
+  outline: none;
+  border: 1px solid #ff9f29;
+}
+.Card--Input__error {
+  margin: 2px 0px;
+  font-size: 12px;
+  color: #ff8d00;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
